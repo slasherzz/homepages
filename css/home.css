@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header {
+    background-image: url(../3.jpg);
+    height: 130vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area {
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+        display: inline-block;
+}
+
+ .nav-area li a {
+         color: #000;
+         text-decoration: none;
+         padding: 30px 30px;
+         border: 1px solid transparent;
+         transition: 0.6s ease;
+ }
+
+.nav-area li a:hover {
+          background-color: #fff;
+          color: #000;
+}
+.nav-area li.active {
+            background-color: #000;
+            color: #000;
+}
